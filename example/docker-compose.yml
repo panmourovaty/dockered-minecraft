@@ -1,0 +1,13 @@
+version: "3"
+services:
+  minecraft-server:
+    image: panmourovaty/dockered-minecraft
+    ports:
+     - 8000:25565
+    volumes:
+      - ./server:/opt/server
+    environment:
+    - JAVA_VERSION=17
+    - RAM_ALLOCATED=1G
+volumes:
+  server:
