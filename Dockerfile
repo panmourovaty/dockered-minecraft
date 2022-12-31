@@ -11,4 +11,4 @@ ADD ./prepare.sh /opt/prepare.sh
 # Run script
 RUN /bin/sh /opt/prepare.sh
 
-CMD /opt/run.sh
+CMD /bin/sh /opt/run.sh
