@@ -10,5 +10,6 @@ services:
     - JAVA_VERSION=17
     - RAM_ALLOCATED=1G
     - ADDITIONALARGS="--nogui"
+    - ADDITIONALJAVAARGS=""
 volumes:
   server:
