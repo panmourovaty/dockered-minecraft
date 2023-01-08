@@ -11,4 +11,5 @@ ADD ./prepare.sh /opt/prepare.sh
 # Run script
 RUN /bin/sh /opt/prepare.sh
 
+USER nobody
 CMD /bin/sh /opt/run.sh
