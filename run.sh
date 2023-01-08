@@ -1,5 +1,6 @@
 #!/bin/sh
 cd "/opt/server"
+umask 0000
 case $JAVA_VERSION in
 
   "17")
