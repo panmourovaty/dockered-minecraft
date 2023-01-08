@@ -4,5 +4,6 @@ echo "https://apk.corretto.aws/" >> /etc/apk/repositories
 apk update
 apk upgrade
 apk add amazon-corretto-17 amazon-corretto-11 amazon-corretto-8
+umask 000
 mkdir /opt/server
 rm -f /opt/prepare.sh
